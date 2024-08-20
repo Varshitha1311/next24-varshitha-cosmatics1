@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #f59a9a;
+}
+
+.logo-image {
+    height: 15vh;
+    width: 15vw;
+    border-radius: 60px;
+    border-color: #fa0297;
+    border: 5px solid #fa0297;
+    margin: 3px;
+    max-height: 70px;
+    max-width: 70px;
+}
+
+.header-container {
+    background-image: linear-gradient(to right, #faf5f8, #f5cee9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 20px;
+    max-width: 100vw;
+    max-height: 100px;
+}
+
+.header-heading {
+    align-self: center;
+    margin-left: 20px;
+    color: #fa0297;
+    justify-content: center;
+}
+
+.main-section {
+    color: #fc0581;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-size: cover;
+    width: 100vw;
+    opacity: 0.9;
+    background-image: url('https://www.halecosmeceuticals.com/hubfs/Blog%20Image%20migration/test/larger-then-ideal.jpg');
+}
+
+.main-heading- {
+    text-align: center;
+    font-size: 90px;
+    text-shadow: -6px -3px 0px rgba(11, 10, 10, 0.6);
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    /* Optional: Light background for better contrast */
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+    background-color: #f59a9a;
+}
+
+
+.card {
+    width: 200px;
+    /* Same width and height for a perfect circle */
+    height: 200px;
+    /* Same width and height for a perfect circle */
+    overflow: hidden;
+    border-radius: 50%;
+    /* Makes the card round */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    /* Optional: Background color for better visibility */
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    /* Makes the image round */
+}
+
+.sale-image {
+    height: 70vh;
+    width: 100vw;
+}
+
+.follow-us-section {
+    background-color: white;
+}
+
+.follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.follow-us-icon-container {
+    background-color: #faf7e8;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin: 15px;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+}
+
+.icon {
+    color: #912c3e;
+    font-size: 35px;
+}
